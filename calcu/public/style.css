@@ -1,0 +1,75 @@
+input[type=button] 
+{
+background-color: rgb(53, 218, 89);
+border: none;
+color: black;
+font-weight: bold;
+padding: 6px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 4px;
+cursor: pointer;
+box-shadow: 3px 3px 3px black;
+}
+
+input[type="text"]
+{
+border: solid;
+color: black;
+padding: 15px 32;
+text-align: right;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+width: 98%;
+box-shadow: 3px 3px 3px black;
+}
+
+body
+{
+background-color: #5dffce;
+}
+
+
+.numero {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #7db8fa;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+.operador {
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #00916e;
+    box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 83px);
+    grid-template-rows: 160px repeat(2, 40px);
+    background-color: #e4c14f;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 15px 10px 0px 5px #96232333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
